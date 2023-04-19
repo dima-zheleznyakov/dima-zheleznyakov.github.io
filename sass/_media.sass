@@ -1,0 +1,235 @@
+@media (max-width: 1200px)
+    header .menu .menu_item
+        padding-right: 19px
+    header .menu .menu_link
+        font-size: 12px
+    .promo .promo_header
+        font-size: 50px
+    .causes .causes_wrapper .causes_info 
+        width: 245px
+    .causes .causes_wrapper .causes_item 
+        align-items: flex-start
+@media (max-width: 991px)
+    header .menu .menu_item
+        padding-right: 8px
+    header .menu .menu_link
+        font-size: 10px
+    .subheader .subheader_official 
+        font-size: 11px
+    .subheader .subheader_phone  
+        font-size: 18px
+    .subheader .subheader_call  
+        font-size: 10px
+    .subheader .subheader_btn  
+        width: 100%
+        height: 37px
+        margin-top: 21px
+        font-size: 13px 
+    .promo .promo_header  
+        font-size: 40px
+    .promo 
+        padding: 110px 0 50px 0
+        min-height: 560px
+    .promo .promo_subheader 
+        font-size: 25px 
+        margin-top: 0px 
+    .promo .promo_descr  
+        font-size: 13px
+        margin-top: 20px
+    .promo .promo_btn 
+        margin: 50px auto 0 auto
+        width: 239px
+        height: 55px
+        font-size: 17px
+    .causes .causes_wrapper .causes_item  
+        align-items: center
+        flex-direction: column
+    .causes .causes_wrapper .causes_info 
+        margin-top: 20px
+@media (max-width: 767px)
+    .auto
+        &_img
+            img
+                width: 100%
+                padding: 0 20px
+    header 
+        .menu
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            position: fixed
+            top: 0
+            left: -100%
+            width: 50%
+            height: 100vh
+            padding: 20px 15px  
+            background-color: rgba(0,0,0, .8)
+            transition: 0.7s all
+        .menu_active
+            left: 0
+            .menu_item
+                margin: 10px 0
+                padding-right: 0
+                border: 0
+            .menu_link
+                font-size: 17px
+        .hamburger
+            display: block
+            position: absolute
+            right: 10px
+            top: 50%
+            transform: translateY(-50%)
+            width: 30px
+            height: 21px
+            span
+                display: block
+                height: 2px
+                width: 100%
+                background-color: #fff
+                margin-bottom: 5px
+                transition: 0.7s all
+            &_active
+                span
+                    margin-bottom: -2px
+                    &:nth-child(1)
+                        transform: translateY(9px) rotate(-45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: translateY(9px) rotate(45deg)
+        .xs-hidden
+            display: none
+        .subheader
+            .subheader_logo 
+                margin-top: 28px
+                img 
+                    width: 220px
+            .subheader_official
+                display: none
+            .xs_phone
+                display: block
+            .subheader_btn  
+                margin-top: 9px
+            .subheader_phone 
+                margin-top: 16px 
+                text-align: center
+@media (max-width: 575px)
+    header
+        .menu_active
+            .menu_link
+                font-size: 14px
+        .menu
+            padding: 12px 0 12px 14px
+            align-items: flex-start
+        padding-top: 32px 
+        .subheader 
+            height: 62px
+            .subheader_logo
+                margin-top: 16px
+                img 
+                    width: 130px
+            .subheader_phone 
+                margin-top: 12px
+                font-size: 12px 
+            .subheader_btn
+                width: 110px
+                height: 22px
+                font-size: 10px
+                margin-top: 4px
+    nav
+        height: 32px
+    .promo 
+        padding: 87px 0 0 0
+        min-height: 370px
+        .promo_header 
+            font-size: 30px 
+            line-height: 37px
+        .promo_subheader
+            margin-top: 23px
+            line-height: 27px
+            font-size: 20px
+        .promo_descr
+            display: none
+        .promo_btn
+            width: 210px
+            height: 50px
+            font-size: 16px
+    .title
+        font-size: 16px
+        margin: 0
+    .causes 
+        .causes_wrapper 
+            .causes_item
+                margin-top: 7px
+    .mobile
+        padding: 28px 0 79px 0
+        &_item
+            width: 100%
+            height: 254px
+            margin-bottom: 19px
+            padding: 80px 11px 0 11px
+            &_subtitle
+                font-size: 18px
+    .subtitle
+        margin: 0
+    .auto
+        height: 393px
+        &_color
+            padding-top: 27px
+        .title
+            display: none
+        .subtitle
+            display: none
+        &_img
+            margin-top: 34px
+            img
+                padding: 0
+        &_bg
+            z-index: 1
+            background: none
+            height: auto
+        &_subtitle  
+            color: #fff
+            width: 270px
+            bottom: 31px
+        &_color
+            height: 393px
+    .require
+        padding: 22px 0 30px 0
+        &_block
+            margin: 10px 0
+        &_list
+            margin-top: 4px
+            li
+                margin-bottom: 0
+    .world
+        .world_block
+            min-height: 360px
+        &_link
+            width: 200px
+        .subtitle
+            font-size: 14px
+    footer
+        padding-bottom: 25px
+        .blue_line
+            width: 220px
+        .footer_menu
+            margin-top: 17px
+            ul
+                padding-left: 0
+            &_head
+                li
+                    padding: 0 5px
+                    a
+                        font-size: 14px
+            &_subhead
+                padding: 0 6px
+        .social
+            padding-left: 0
+            text-align: center
+            margin-top: 14px
+        .download
+                justify-content: center
+                padding-right: 0
+                margin-top: 11px
+ 
